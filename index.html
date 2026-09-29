@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arize & Echo × Sid Vij | House of Projects</title>
+<meta name="description" content="Social media strategy, content and distribution for Sid Vij. A proposal by House of Projects: Arize & Echo.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231c1a17'/><text x='50' y='66' font-size='52' text-anchor='middle' fill='%23e0a84a' font-family='Arial' font-weight='800'>A&amp;E</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1c1a17;--ink2:#2a2621;--cream:#f7f1e6;--card:#fffdf8;--coral:#c4604a;--gold:#e0a84a;--mute:#6f675c;--r:26px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;overflow-x:hidden}
+h1,h2,h3,.d{font-family:'Bricolage Grotesque','DM Sans',sans-serif;letter-spacing:-.02em;line-height:1.02}
+a{color:inherit}
+.w{max-width:1120px;margin:0 auto;padding:0 24px}
+section{padding:110px 0}
+.k{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--coral);font-weight:700;margin-bottom:18px}
+h2{font-size:clamp(2.2rem,5.5vw,4rem);font-weight:800;margin-bottom:22px;max-width:16ch}
+h2 em,h1 em{font-style:normal;color:var(--coral)}
+.lead{color:var(--mute);font-size:1.15rem;max-width:56ch}
+nav{position:fixed;inset:0 0 auto;z-index:50;padding:14px 24px;display:flex;justify-content:space-between;align-items:center;backdrop-filter:blur(14px);background:rgba(28,26,23,.72);color:#fff}
+nav b{font-family:'Bricolage Grotesque';letter-spacing:.12em;font-size:.85rem}
+nav div{display:flex;gap:22px;font-size:.85rem}
+nav a{text-decoration:none;opacity:.75}nav a:hover{opacity:1;color:var(--gold)}
+/* hero */
+.hero{background:var(--ink);color:#fff;min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding:120px 0 80px}
+.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;filter:blur(90px);opacity:.5;animation:fl 14s ease-in-out infinite alternate}
+.hero:before{width:520px;height:520px;background:var(--coral);left:-140px;bottom:-160px}
+.hero:after{width:560px;height:560px;background:var(--gold);right:-180px;top:-200px;animation-delay:-6s}
+@keyframes fl{to{transform:translate(70px,-50px) scale(1.15)}}
+#spot{position:absolute;inset:0;pointer-events:none;background:radial-gradient(420px circle at var(--x,50%) var(--y,40%),rgba(224,168,74,.16),transparent 70%)}
+.hero .w{position:relative;text-align:center}
+.tag{display:inline-block;border:1px solid rgba(255,255,255,.25);border-radius:99px;padding:7px 18px;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:clamp(3.6rem,13vw,10.5rem);font-weight:800;margin:26px 0 20px;line-height:.9}
+h1 span{display:inline-block;opacity:0;transform:translateY(60px);animation:up .9s cubic-bezier(.2,.8,.2,1) forwards}
+h1 span:nth-child(2){animation-delay:.12s}h1 span:nth-child(3){animation-delay:.24s}
+@keyframes up{to{opacity:1;transform:none}}
+.hero p.s{font-size:clamp(1.15rem,2.4vw,1.6rem);color:#d8d0c2}
+.hero p.s b{color:#fff}
+.bar{width:90px;height:3px;background:linear-gradient(90deg,var(--gold),var(--coral));margin:34px auto}
+.sid{font-family:'Bricolage Grotesque';font-size:2.4rem;font-weight:800;letter-spacing:.14em}
+.hero .duo{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:48px;text-align:left}
+.duo div{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:var(--r);padding:26px 28px;backdrop-filter:blur(8px)}
+.duo h3{color:var(--gold);font-size:1.5rem;margin-bottom:8px}
+.duo p{color:#d8d0c2}
+.div3{margin-top:30px;font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;color:#a99f8f}
+/* positioning */
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 40px}
+.chips span{background:#f0ddd0;color:#a94a36;border-radius:99px;padding:8px 20px;font-weight:700;font-size:.95rem;transition:.25s}
+.chips span:hover{background:var(--coral);color:#fff;transform:translateY(-3px)}
+.q{background:var(--ink);color:#fff;border-radius:var(--r);padding:clamp(28px,5vw,60px);position:relative;overflow:hidden}
+.q:before{content:"“";position:absolute;right:30px;top:-40px;font:800 15rem/1 'Bricolage Grotesque';color:var(--coral);opacity:.35}
+.q h3{font-size:clamp(1.7rem,4vw,3rem);max-width:20ch;position:relative}
+.q small{display:block;margin-top:18px;color:var(--gold);letter-spacing:.16em;text-transform:uppercase;font-size:.75rem}
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.c{background:var(--card);border:1px solid #eadfcc;border-radius:var(--r);padding:28px;transition:.3s}
+.c:hover{transform:translateY(-5px);box-shadow:0 22px 40px -22px rgba(120,80,40,.4)}
+.c h3{font-size:1.35rem;margin-bottom:10px}
+.c p,.c li{color:var(--mute);font-size:.98rem}
+.world{margin-top:18px}
+.world ul,.c ul{list-style:none;padding:0}
+.world ul{columns:2;gap:30px}
+li{padding:5px 0 5px 22px;position:relative}
+li:before{content:"";position:absolute;left:0;top:.95em;width:10px;height:2px;background:var(--gold)}
+.plat{display:flex;gap:16px;align-items:center}
+.plat img{width:46px;height:46px;flex:none}
+.plat p{font-size:.92rem}
+/* funnel */
+.fun{display:grid;gap:16px;margin-top:40px}
+.fn{border-radius:var(--r);padding:28px 32px;background:var(--card);border:1px solid #eadfcc;border-top:6px solid;display:grid;grid-template-columns:210px 1fr;gap:20px;align-items:start}
+.fn h3{font-size:2.2rem}.fn h3 small{display:block;font:700 .75rem 'DM Sans';letter-spacing:.16em;color:var(--coral);margin-top:6px}
+.fn ul{columns:2;column-gap:30px}
+/* numbers */
+.nums{background:var(--ink);color:#fff;border-radius:calc(var(--r) + 8px);padding:clamp(28px,5vw,60px);margin-top:10px;position:relative;overflow:hidden}
+.big{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(5rem,17vw,12rem);line-height:.85;color:var(--gold)}
+.big small{font-size:.28em;color:#fff;letter-spacing:0;margin-left:10px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:34px}
+.split div{border-radius:20px;padding:22px 26px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12)}
+.split b{font:800 3rem 'Bricolage Grotesque';color:var(--gold);display:block;line-height:1}
+.split span{color:#d8d0c2}
+.days{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 8px}
+.days span{background:var(--gold);color:var(--ink);font-weight:700;letter-spacing:.14em;text-transform:uppercase;border-radius:99px;padding:10px 26px;font-size:.9rem}
+.pipe{display:flex;flex-wrap:wrap;gap:8px 4px;align-items:center;margin-top:16px}
+.pipe span{background:var(--card);border:1px solid #eadfcc;border-radius:99px;padding:9px 18px;font-size:.92rem;font-weight:500}
+.pipe span:first-child,.pipe span:last-child{background:var(--ink);color:var(--gold);border-color:var(--ink)}
+.pipe i{color:#b9ac96;font-style:normal;padding:0 2px}
+.hrs{float:right;color:var(--coral);font-weight:700;font-size:.85rem;letter-spacing:.1em}
+/* deliverables */
+.dl{grid-template-columns:repeat(4,1fr);margin-top:40px}
+.dl .c{text-align:left}
+.dl img{width:58px;height:58px;margin-bottom:16px}
+.dl b.n{font:800 2.6rem 'Bricolage Grotesque';display:block;line-height:1;color:var(--coral);margin-bottom:6px}
+.ic{width:58px;height:58px;border-radius:16px;background:#1d5cff;display:grid;place-items:center;margin-bottom:16px}
+.ic svg{width:30px;height:30px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ic.gd{background:linear-gradient(135deg,var(--gold),var(--coral))}
+.guar{margin-top:18px;background:linear-gradient(120deg,var(--coral),#d98a4a);color:#fff;border-radius:var(--r);padding:30px 36px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.guar b{font:800 clamp(3rem,8vw,5.5rem) 'Bricolage Grotesque';line-height:1}
+.guar span{max-width:26ch;font-size:1.1rem}
+/* pricing */
+.price{background:var(--ink);color:#fff;border-radius:calc(var(--r) + 8px);padding:clamp(30px,6vw,70px);text-align:center;position:relative;overflow:hidden}
+.price:before{content:"";position:absolute;inset:-40% -10% auto;height:80%;background:radial-gradient(closest-side,rgba(224,168,74,.35),transparent);}
+.price>*{position:relative}
+.amt{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(3.4rem,11vw,8rem);color:var(--gold);line-height:1;margin:14px 0}
+.amt small{font-size:.32em;color:#fff;margin-left:8px}
+.price p{color:#d8d0c2}
+.yr{display:inline-block;margin-top:16px;background:var(--coral);border-radius:99px;padding:8px 22px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:.8rem}
+.add{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:38px;text-align:left}
+.add div{border:1px dashed rgba(255,255,255,.3);border-radius:20px;padding:20px 24px;display:flex;gap:16px;align-items:center}
+.add img{width:42px;flex:none}.add b{display:block}.add span{color:var(--gold);font-weight:700}
+.req{margin-top:18px}
+.req h3{color:var(--coral);font-size:1rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}
+/* rules */
+.rules{grid-template-columns:repeat(2,1fr);margin-top:36px}
+.rules .c h3{display:flex;justify-content:space-between;gap:10px;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.rules .c h3 i{font-style:normal;color:var(--coral);font-family:'DM Sans'}
+.bl{margin-top:22px;background:var(--ink);color:#fff;border-radius:var(--r);padding:36px;border-left:6px solid var(--gold)}
+.bl h3{font-size:clamp(1.7rem,4vw,2.6rem);margin:6px 0 10px}
+.bl p{color:#d8d0c2;max-width:60ch}
+.cta{text-align:center;padding:130px 0 60px}
+.cta h2{margin:0 auto 26px;max-width:14ch}
+.btn{display:inline-block;background:var(--ink);color:var(--gold);padding:16px 34px;border-radius:99px;font-weight:700;text-decoration:none;transition:.3s}
+.btn:hover{background:var(--coral);color:#fff;transform:scale(1.05)}
+footer{padding:34px 24px 46px;text-align:center;color:var(--mute);font-size:.85rem}
+.rv{opacity:0}.rv.in{opacity:1;animation:rvIn .9s cubic-bezier(.2,.8,.2,1) var(--d,0s) backwards}@keyframes rvIn{from{opacity:0;transform:translateY(34px)}}
+:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+@media(max-width:860px){.g4,.dl{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr}.fn{grid-template-columns:1fr}nav div{display:none}section{padding:80px 0}}
+@media(max-width:600px){.g2,.g4,.dl,.rules,.split,.add,.hero .duo{grid-template-columns:1fr}.world ul,.fn ul{columns:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,h1 span{opacity:1;transform:none}}
+
+#pb{position:fixed;top:0;left:0;right:0;height:3px;z-index:60;background:linear-gradient(90deg,var(--gold),var(--coral));transform-origin:0 50%;transform:scaleX(0)}
+.lt{position:absolute;pointer-events:none;z-index:0}
+.lt.p{left:50%;top:50%;width:min(1200px,150vw);aspect-ratio:1;transform:translate(-50%,-50%);opacity:.5}
+.lt.s{animation:bob 5s ease-in-out infinite alternate}
+.s1{left:7%;top:20%;width:90px}.s2{right:9%;top:58%;width:64px;animation-delay:-2s}.s3{left:16%;bottom:12%;width:54px;animation-delay:-3.5s}
+.s4{right:12%;top:14%;width:70px}
+@keyframes bob{to{transform:translateY(-22px) rotate(8deg)}}
+.lt.f{position:relative}
+.nums .pl{right:5%;top:8%;width:min(240px,28%)}
+.price .lt.p{width:min(900px,160%)}
+.cta{position:relative;overflow:hidden}.cta .w{position:relative}
+.pipe span{animation:glow 6.5s ease-in-out infinite;animation-delay:calc(var(--i)*.32s)}
+@keyframes glow{0%,14%,100%{transform:none;box-shadow:none}5%,9%{transform:translateY(-7px) scale(1.07);box-shadow:0 12px 22px -8px rgba(196,96,74,.65);border-color:var(--coral)}}
+.amt{background:linear-gradient(100deg,var(--gold),#fff3d0,var(--coral),var(--gold));background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 6s linear infinite}
+.amt small{color:#fff;-webkit-text-fill-color:#fff}@keyframes sh{to{background-position:250% 0}}
+.big{animation:brt 3s ease-in-out infinite alternate}@keyframes brt{to{text-shadow:0 0 50px rgba(224,168,74,.55)}}
+@media(max-width:600px){.nums .pl{width:90px;top:4%}.lt.f{display:none}}
+.pay{margin-top:34px;text-align:left}.pp{display:grid;grid-template-columns:1fr 1fr;gap:16px}.pp div{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:20px 26px}.pp b{font:800 3rem/1 "Bricolage Grotesque";color:var(--gold);display:block}.pp span{color:#d8d0c2}@media(max-width:600px){.pp{grid-template-columns:1fr}}
+.rp,.rf{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.14)}.rp h3{color:var(--gold)}.rp p{color:#d8d0c2}
+.rf{display:flex;flex-direction:column;gap:16px}.rh{display:flex;gap:14px;align-items:center}.rh img{width:44px;height:44px;flex:none}.rh b{display:block;color:#fff}.rh small{color:#a99f8f;word-break:break-all}
+.pv iframe{width:100%;height:520px;border:0;border-radius:16px;background:#fff}
+.rb{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto}.rb button,.rb a{font:700 .85rem 'DM Sans';border-radius:99px;padding:10px 18px;text-decoration:none;cursor:pointer;border:1px solid var(--gold)}
+.rb button{background:var(--gold);color:var(--ink)}.rb a{color:var(--gold)}.rb a:hover,.rb button:hover{background:var(--coral);border-color:var(--coral);color:#fff}
+.hero{padding-bottom:230px}.hf{position:absolute;left:0;right:0;bottom:-1px;height:240px;z-index:0;pointer-events:none;background:linear-gradient(to bottom,rgba(247,241,230,0) 0%,rgba(247,241,230,.35) 45%,rgba(247,241,230,.8) 78%,var(--cream) 100%)}.hero .s3{left:3%;top:68%;bottom:auto;width:46px}@media(max-width:900px){.hero .s3{display:none}}
+</style>
+</head>
+<body>
+<nav><b>HOUSE OF PROJECTS</b><div><a href="#positioning">Positioning</a><a href="#execution">Execution</a><a href="#reels">Reference Reels</a><a href="#production">Production</a><a href="reel-ideas.html">Reel Ideas</a><a href="#scope">Scope</a><a href="#pricing">Pricing</a><a href="#rules">Ground rules</a></div></nav><div id="pb"></div>
+
+<header class="hero"><div id="spot"></div><div class="lt s s1" data-l="sparkle"></div><div class="lt s s2" data-l="sparkle"></div><div class="lt s s3" data-l="sparkle"></div><div class="hf"></div><div class="w">
+<span class="tag">Social media strategy · Content · Production · Distribution</span>
+<h1 class="d"><span>ARIZE</span> <span><em>&</em></span> <span>ECHO</span></h1>
+<p class="s">We don't just manage social media.<br><b>We build people into brands.</b></p>
+<div class="bar"></div>
+<div class="sid">SID VIJ</div>
+<p class="s" style="font-size:1.15rem;margin-top:6px">Building the man behind the business.</p>
+<div class="duo"><div><h3>Arize</h3><p>Helping the brand rise into visibility and authority — a light becoming a structured path.</p></div><div><h3>Echo</h3><p>Making the voice, ideas and expertise travel further — and last longer.</p></div></div>
+<p class="div3">A division of House of Projects</p>
+</div></header>
+
+<section id="positioning"><div class="w">
+<p class="k rv">Positioning</p>
+<h2 class="rv">The opportunity is bigger than <em>"business content."</em></h2>
+<p class="lead rv">Sid Vij shouldn't become another business creator. He should become a <b>distinctive modern Indian voice</b> around:</p>
+<div class="chips rv"><span>Business</span><span>Luxury</span><span>Lifestyle</span><span>Family</span><span>Style</span><span>Diet</span><span>Modern Masculinity</span></div>
+<div class="q rv"><h3 class="d">What does success actually look like when you're already inside the room?</h3><small>The emotional territory</small></div>
+<div class="c world rv"><h3 style="color:var(--coral);font-size:.85rem;letter-spacing:.16em;text-transform:uppercase">The world behind the success</h3>
+<ul><li>Decisions</li><li>Responsibility</li><li>Taste</li><li>Family</li><li>Food</li><li>Business</li><li>Personal growth</li><li>Luxury</li><li>Everyday life</li></ul></div>
+<div class="grid g3 rv" style="margin-top:18px">
+<div class="c plat"><img src="assets/instagram.svg" alt="Instagram logo"><p><b>Instagram</b><br>Discovery · personality · visual storytelling</p></div>
+<div class="c plat"><img src="assets/linkedin.svg" alt="LinkedIn logo"><p><b>LinkedIn</b><br>Business perspective · authority</p></div>
+<div class="c plat"><img src="assets/youtube.svg" alt="YouTube logo"><p><b>YouTube</b><br>Deeper storytelling · future expansion</p></div></div>
+<p class="lead rv" style="margin-top:22px;font-size:.95rem">Reference territory: founder-led personal brands + premium lifestyle storytelling + business authority. Reference examples to be finalised.</p>
+</div></section>
+
+<section id="execution" style="background:#efe5d3"><div class="w">
+<p class="k rv">Execution system</p>
+<h2 class="rv">End-to-end management. <em>Zero content chaos.</em></h2>
+<div class="nums rv"><div class="lt pl" data-l="play"></div>
+<div class="big"><span data-n="15">15</span><small>REELS / MONTH</small></div>
+<div class="split"><div><b data-n="12">12</b><span>Personal, dedicated Sid Vij Reels</span></div><div><b data-n="3">3</b><span>Collab Reels with Scentra</span></div></div>
+<p style="margin-top:32px;color:#a99f8f;letter-spacing:.16em;font-size:.78rem;text-transform:uppercase">Publishing rhythm — every week, no exceptions</p>
+<div class="days"><span>Tuesday</span><span>Thursday</span><span>Saturday</span></div></div>
+<div class="grid g2 rv" style="margin-top:18px">
+<div class="c"><span class="hrs">5–6 HRS</span><h3>Day 01 — House / Real Environment</h3><p>Talking-head & direct-to-camera pieces, lifestyle scenes, kitchen / diet content, transitions, experiments. <b style="color:var(--ink)">Objective: make it feel like Sid's actual world.</b></p></div>
+<div class="c"><span class="hrs">5–6 HRS</span><h3>Day 02 — Studio</h3><p>Multi-angle control, strong hooks, script-driven Reels, pattern interrupts, visual experiments. <b style="color:var(--ink)">Multiple variations from one concept</b> — never repetitive talking heads.</p></div></div>
+<p class="k rv" style="margin:44px 0 6px">Content pipeline</p>
+<div class="pipe rv"><span>Strategy</span><i>→</i><span>20+ Topic Options</span><i>→</i><span>Selection</span><i>→</i><span>Pre-Reel References</span><i>→</i><span>Script</span><i>→</i><span>Shoot Plan</span><i>→</i><span>Production</span><i>→</i><span>Edit</span><i>→</i><span>Approval</span><i>→</i><span>Posting Calendar</span><i>→</i><span>Tue / Thu / Sat</span></div>
+<p class="lead rv" style="margin-top:18px;font-size:.95rem">+ Client-supplied phone footage or Meta AI glasses content folds into the system where useful. Two dedicated shoot days per month — house & studio.</p>
+</div></section>
+
+<section id="reels" style="background:var(--ink);color:#fff"><div class="w">
+<p class="k rv">Reference reels</p>
+<h2 class="rv" style="color:#fff">Reference: <em>what we can offer.</em></h2>
+<p class="lead rv" style="color:#d8d0c2">Three references that show the standard we bring to <b style="color:#fff">storytelling</b> and <b style="color:#fff">production</b>.</p>
+<div class="grid g2 rv" style="margin-top:34px"><div class="c rp"><h3>Storytelling</h3><p>Script-driven Reels with strong hooks that make it feel like Sid's actual world.</p></div><div class="c rp"><h3>Production</h3><p>Multi-angle control, pattern interrupts and visual experiments — multiple variations from one concept.</p></div></div>
+<div class="grid g3 rv" style="margin-top:18px"><div class="c rf"><div class="rh"><img src="assets/instagram.svg" alt="Instagram logo"><div><b>Reference Reel 01</b><small>instagram.com/p/Dac-AOGhr-5</small></div></div><div class="pv"></div><div class="rb"><button type="button" data-e="https://www.instagram.com/p/Dac-AOGhr-5/embed">▶ Load preview</button><a href="https://www.instagram.com/p/Dac-AOGhr-5/" target="_blank" rel="noopener">Open on Instagram ↗</a></div></div><div class="c rf"><div class="rh"><img src="assets/instagram.svg" alt="Instagram logo"><div><b>Reference Reel 02</b><small>instagram.com/p/DakqvG4BLKy</small></div></div><div class="pv"></div><div class="rb"><button type="button" data-e="https://www.instagram.com/p/DakqvG4BLKy/embed">▶ Load preview</button><a href="https://www.instagram.com/p/DakqvG4BLKy/" target="_blank" rel="noopener">Open on Instagram ↗</a></div></div><div class="c rf"><div class="rh"><img src="assets/instagram.svg" alt="Instagram logo"><div><b>Reference Reel 03</b><small>instagram.com/reel/Dc-fX2MoDtY</small></div></div><div class="pv"></div><div class="rb"><button type="button" data-e="https://www.instagram.com/reel/Dc-fX2MoDtY/embed">▶ Load preview</button><a href="https://www.instagram.com/reel/Dc-fX2MoDtY/" target="_blank" rel="noopener">Open on Instagram ↗</a></div></div></div></div></section>
+
+
+<section id="production" style="background:#efe5d3"><div class="w">
+<p class="k rv">Production setup</p>
+<h2 class="rv">On set, <em>everything is handled.</em></h2>
+<p class="lead rv">Talking-head and lighting production is managed by our team. Whatever a script needs on the shoot day, we bring and run it. No issues, no extra asks from Sid.</p>
+<div class="grid g3 rv" style="margin-top:34px">
+<div class="c"><div class="ic gd"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div><h3>Talking-head production</h3><p>Direct-to-camera setups framed and lit properly, with multiple angles and variations from one concept so it never feels repetitive.</p></div>
+<div class="c"><div class="ic gd"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="10" rx="1.5"/><path d="M12 15v5M8 20h8"/></svg></div><h3>Softbox lighting</h3><p>Soft, flattering key and fill light for house and studio days, so skin tones and the room look premium.</p></div>
+<div class="c"><div class="ic gd"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div><h3>Wireless mics</h3><p>Clean, clear audio wherever Sid moves, indoors or on a walking shot.</p></div>
+<div class="c"><div class="ic gd"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4L7 17M17 7l1.4-1.4"/></svg></div><h3>LC colourful lights</h3><p>Coloured accent lighting for mood, depth and a cinematic background.</p></div>
+<div class="c"><div class="ic gd"><svg viewBox="0 0 24 24"><path d="M12 3v6M8 9h8l-1 8H9z"/><path d="M10 21h4"/></svg></div><h3>Gimbal for walking shots</h3><p>Smooth, stable movement for walk-and-talk, entrances and lifestyle scenes.</p></div>
+<div class="c"><div class="ic gd"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></div><h3>And more</h3><p>Any extra gear or set pieces a script needs are arranged by us.</p></div>
+</div>
+<div class="guar rv" style="margin-top:18px"><span>All of it is required, arranged and run by us on both shoot days.</span><b style="font-size:clamp(2rem,5vw,3.4rem)">No issues.</b></div>
+</div></section>
+
+<section id="strategy" style="background:var(--ink);color:#fff"><div class="w">
+<p class="k rv">Content strategy</p>
+<h2 class="rv" style="color:#fff">30 ideas. <em>15 go live first.</em></h2>
+<p class="lead rv" style="color:#d8d0c2">Every reel idea is tagged by pillar, funnel stage and page, so the monthly calendar stays balanced and every reel has a job.</p>
+<div class="grid g3 rv" style="margin-top:34px">
+<div class="c rp"><h3>3 pillars</h3><p>Educational (15) builds authority. Entertaining (6) earns reach. Relationship (9) builds trust in the man behind the business.</p></div>
+<div class="c rp"><h3>3 funnel stages</h3><p>TOFU (16) for discovery, MOFU (11) for depth and taste, BOFU (3) for the brand journey and behind the scenes.</p></div>
+<div class="c rp"><h3>2 pages</h3><p>21 ideas for Sid's personal page, 5 as Scentra brand-page collabs, 4 that work on both.</p></div>
+</div>
+<div class="rb rv" style="margin-top:30px"><button type="button" onclick="location.href='reel-ideas.html'">See all 30 reel ideas →</button></div>
+</div></section>
+
+<section id="scope"><div class="w">
+<p class="k rv">What's included</p>
+<h2 class="rv">Everything handled. <em>One system.</em></h2>
+<div class="grid dl rv">
+<div class="c"><div class="ic gd"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3z"/></svg></div><b class="n">15</b><h3>Reels</h3><p>Scripting, shooting, editing (up to 3 changes) & posting. Includes 1-day office/house shoot + 1-day studio shoot. 3 per week.</p></div>
+<div class="c"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 9"/></svg></div><b class="n">6 + 4</b><h3>Statics & Carousels</h3><p>High-quality graphics and captions. 1 each week (up to 5 images) + 2 additional on 2nd and 4th Sundays.</p></div>
+<div class="c"><img src="assets/linkedin.svg" alt="LinkedIn logo"><b class="n">4×</b><h3>LinkedIn posting</h3><p>4 times a month, professionally curated to build authority.</p><ul style="margin-top:10px"><li>Thought leadership</li><li>Company updates</li><li>Industry insights</li><li>Talent & culture</li><li>Brand positioning</li></ul></div>
+<div class="c"><img src="assets/instagram.svg" alt="Instagram logo"><b class="n">IG</b><h3>Instagram management</h3><p>Auto DMs, community engagement, and account curation.</p><ul style="margin-top:10px"><li>Comment management</li><li>DM automation</li><li>Community building</li><li>Profile optimisation</li><li>Growth monitoring</li></ul></div></div>
+<div class="grid g4 rv" style="margin-top:18px">
+<div class="c"><h3>Strategy</h3><ul><li>Monthly content strategy</li><li>Content pillars</li><li>TOFU / MOFU / BOFU planning</li><li>20+ topic ideas / month</li></ul></div>
+<div class="c"><h3>Content</h3><ul><li>12 Sid Vij · 3 Scentra collab Reels</li><li>Scripting & creative direction</li><li>Pre-Reel references</li><li>Shoot planning</li></ul></div>
+<div class="c"><h3>Production</h3><ul><li>2 shoot days / month</li><li>Day 1 house · Day 2 studio</li><li>Transitions & experiments</li><li>Script-specific scenes</li></ul></div>
+<div class="c"><h3>Management</h3><ul><li>Editing & revisions</li><li>Posting calendar & publishing</li><li>Instagram management</li><li>End-to-end execution</li></ul></div></div>
+<div class="guar rv"><span>Minimum guarantee: organic views from the initial month</span><div class="lt f" data-l="bars" style="width:130px;height:130px"></div><b data-n="250" data-s="K">250K</b></div>
+</div></section>
+
+<section id="pricing" style="background:#efe5d3"><div class="w">
+<p class="k rv">Proposal & commercials</p>
+<div class="price rv"><div class="lt s s4" data-l="sparkle"></div>
+<p style="letter-spacing:.2em;text-transform:uppercase;font-size:.8rem;color:var(--gold)">Investment</p>
+<div class="amt">₹50K<small>+ Taxes (18%)</small></div>
+<p>End-to-end social media management · Delhi/NCR shoot travel up to 25 km included</p>
+<span class="yr">Exclusive pricing for 1 year</span>
+<div class="pay"><p class="k" style="color:var(--gold);margin:0 0 12px">Payment terms</p><div class="pp"><div><b>50%</b><span>Advance, at the beginning of the month</span></div><div><b>50%</b><span>Balance, at the end of the month</span></div></div></div><div class="add">
+<div><img src="assets/instagram.svg" alt="Instagram logo"><p><b>Message management</b><span>₹15,000 + Taxes/mo</span> — not included</p></div>
+<div><img src="assets/youtube.svg" alt="YouTube logo"><p><b>YouTube posting & management</b><span>₹10,000 + Taxes/mo</span> — not included</p></div></div></div>
+<div class="c req rv" style="margin-top:18px"><h3>Client requirements</h3><ul><li><b style="color:var(--ink)">Consistency requires availability</b> — shoot time each month</li><li>Missed shoots re-planned so the chain never breaks</li><li>AI-training / reference content supported by the client</li><li>The system doesn't stop because one shoot day gets missed</li></ul></div>
+</div></section>
+
+<section id="rules"><div class="w">
+<p class="k rv">Ground rules</p>
+<h2 class="rv" style="max-width:20ch">The ground rules, kept <em>beautifully simple.</em></h2>
+<p class="lead rv">Eight clear terms that keep the content system moving — structured, shared, and easy to scan.</p>
+<div class="grid rules rv">
+<div class="c"><h3>Client availability <i>01</i></h3><ul><li><b style="color:var(--ink)">5–6 hours</b> of dedicated availability per shoot day</li><li>Two monthly shoot days are essential to the content pipeline</li></ul></div>
+<div class="c"><h3>Content continuity <i>02</i></h3><ul><li>Missed shoot → next month's production re-planned in advance</li><li>Consistency is maintained — content is not paused</li></ul></div>
+<div class="c"><h3>AI content support <i>03</i></h3><ul><li>Approved voice, video & visual references for AI-assisted content</li><li>A backup system for periods when Sid cannot film</li></ul></div>
+<div class="c"><h3>Client-supplied content <i>04</i></h3><ul><li>Phone footage, Meta AI glasses, personal & BTS clips</li><li>Used within the agreed strategy and production system</li></ul></div>
+<div class="c"><h3>Shoot & travel <i>05</i></h3><ul><li><b style="color:var(--ink)">2 shoot days × 5–6 hrs</b> included every month</li><li>Delhi/NCR up to 25 km included; beyond scope → discussed before production</li></ul></div>
+<div class="c"><h3>Approvals & turnaround <i>06</i></h3><ul><li>Timely feedback keeps the calendar intact</li><li>Approval delays or missing footage may shift the publishing timeline</li></ul></div>
+<div class="c"><h3>Scope exclusions <i>07</i></h3><ul><li>Message management — <b style="color:var(--ink)">₹15,000 + Taxes/mo</b> (add-on)</li><li>YouTube posting & management — <b style="color:var(--ink)">₹10,000 + Taxes/mo</b>, not in base scope</li></ul></div>
+<div class="c"><h3>Content & creative approval <i>08</i></h3><ul><li>Executed per the agreed strategy & approved positioning</li><li>New creative directions or extra production days evaluated separately</li></ul></div></div>
+<div class="bl rv"><p class="k" style="color:var(--gold);margin:0">Bottom line</p><h3 class="d">Consistency is a shared responsibility.</h3><p>We build the strategy, content system and execution. Sid's availability, inputs and timely approvals keep the system moving.</p><div class="days" style="margin-bottom:0"><span>Tue</span><span>Thu</span><span>Sat</span></div></div>
+</div></section>
+
+<section class="cta"><div class="lt p" data-l="pulse"></div><div class="lt s s1" data-l="sparkle"></div><div class="lt s s2" data-l="sparkle"></div><div class="w rv">
+<h2 class="d">Build the voice. Build the world. <em>Let it echo.</em></h2>
+<a class="btn" href="https://houseofprojectapp.com/" target="_blank" rel="noopener">houseofprojectapp.com</a>
+</div></section>
+<footer>House of Projects — Arize & Echo · Client pitch for Sid Vij · All commercials are exclusive of taxes unless specifically stated otherwise.</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+<script src="assets/lotties.js"></script>
+<script>
+const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+if(window.lottie&&window.LOTTIE)document.querySelectorAll('.lt').forEach(el=>lottie.loadAnimation({container:el,renderer:'svg',loop:true,autoplay:!rm,animationData:LOTTIE[el.dataset.l]}));
+document.querySelectorAll('.grid.rv,.chips.rv,.add,.split').forEach(p=>{p.classList.remove('rv');[...p.children].forEach((c,i)=>{c.classList.add('rv');c.style.setProperty('--d',i*.09+'s')})});
+document.querySelectorAll('.pipe span').forEach((s,i)=>s.style.setProperty('--i',i));
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+const co=new IntersectionObserver(e=>e.forEach(x=>{if(!x.isIntersecting)return;co.unobserve(x.target);
+const t=x.target,n=+t.dataset.n,s=t.dataset.s||'',st=performance.now();
+(function f(now){const p=Math.min((now-st)/1400,1);t.textContent=Math.round(n*(1-Math.pow(1-p,3)))+s;if(p<1)requestAnimationFrame(f)})(st)}),{threshold:.6});
+document.querySelectorAll('[data-n]').forEach(el=>co.observe(el));
+const hh=document.querySelector('.hero'),sp=document.getElementById('spot'),hw=hh.querySelector('.w'),pb=document.getElementById('pb');
+hh.addEventListener('pointermove',e=>{const r=hh.getBoundingClientRect();sp.style.setProperty('--x',e.clientX-r.left+'px');sp.style.setProperty('--y',e.clientY-r.top+'px')});
+addEventListener('scroll',()=>{const y=scrollY;pb.style.transform='scaleX('+y/(document.body.scrollHeight-innerHeight)+')';},{passive:true});
+if(matchMedia('(pointer:fine)').matches&&!rm)document.querySelectorAll('.c,.fn,.split>div,.duo>div').forEach(c=>{c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform='perspective(700px) rotateX('+-y*8+'deg) rotateY('+x*10+'deg) translateY(-5px)'});c.addEventListener('pointerleave',()=>c.style.transform='')});
+document.querySelectorAll('.rb button').forEach(b=>b.addEventListener('click',()=>{const p=b.closest('.rf').querySelector('.pv');if(p.firstChild){p.innerHTML='';b.textContent='▶ Load preview';return}p.innerHTML='<iframe loading="lazy" allowfullscreen title="Instagram reference reel" src="'+b.dataset.e+'"></iframe>';b.textContent='✕ Hide preview'}));
+</script>
+</body>
+</html>
